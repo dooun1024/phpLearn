@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8b3f667-921a-496a-90d8-719e484154bd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/014Static.php" beforeDir="false" afterPath="$PROJECT_DIR$/014Static.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +19,7 @@
             <entry file="file://$PROJECT_DIR$/014Static.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="136">
-                  <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+                  <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -73,8 +73,8 @@
         <option value="$PROJECT_DIR$/011Interface.php" />
         <option value="$PROJECT_DIR$/013Abstract.php" />
         <option value="$PROJECT_DIR$/Game.php" />
-        <option value="$PROJECT_DIR$/014Static.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/014Static.php" />
       </list>
     </option>
   </component>
@@ -88,8 +88,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1513" />
-    <option name="y" value="138" />
+    <option name="x" value="-1635" />
+    <option name="y" value="141" />
     <option name="width" value="1353" />
     <option name="height" value="893" />
   </component>
@@ -150,15 +150,15 @@
       <workItem from="1538614915119" duration="4858000" />
       <workItem from="1538621691481" duration="288000" />
       <workItem from="1538628291741" duration="10595000" />
-      <workItem from="1538698205890" duration="6880000" />
+      <workItem from="1538698205890" duration="6886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22621000" />
+    <option name="totallyTimeSpent" value="22627000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1594" y="111" width="1082" height="714" extended-state="0" />
+    <frame x="-1692" y="113" width="1082" height="714" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2925636" />
@@ -339,7 +339,7 @@
     <entry file="file://$PROJECT_DIR$/014Static.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>

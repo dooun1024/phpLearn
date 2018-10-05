@@ -6,3 +6,4 @@ include "Game.php";
 //echo Game::$PLATFORM_3;
 
 
+echo "hello";
