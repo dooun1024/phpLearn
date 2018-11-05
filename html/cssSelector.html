@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello css</title>
+
+    <style>
+
+        /*元素选择器,选择所有的h1元素*/
+        h1 {
+            color: #48c7ce;
+            font-size: 40px;
+        }
+        p {
+
+        }
+
+        #note {
+            /*em 是相比浏览器默认参数的倍数*/
+            font-size: 1.2em;
+            border: solid 1px;
+            height: 300px;
+        }
+
+        .card {
+            border: solid 1px;
+            height: 200px;
+            width: 150px;
+            display: inline-block;
+        }
+
+        .red-hart {
+            color:red;
+        }
+
+        [type=text]{
+            color:blue;
+        }
+
+
+        input[type="radio"] {
+            color:purple;
+        }
+
+        div {
+            position: relative;
+            line-height: 300px;
+        }
+
+        div {
+            line-height: 30px;
+        }
+
+        input[type="radio"] {
+            width: 20px;
+            height: 20px;
+            opacity: 0;
+        }
+
+        label {
+            position: absolute;
+            left: 5px;
+            top: 3px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 1px solid #999;
+        }
+
+        /*设置选中的input的样式*/
+        /* + 是兄弟选择器,获取选中后的label元素*/
+        input:checked+label {
+            background-color: #fe6d32;
+            border: 1px solid #fe6d32;
+        }
+
+        input:checked+label::after {
+            position: absolute;
+            content: "";
+            width: 5px;
+            height: 10px;
+            top: 3px;
+            left: 6px;
+            border: 2px solid #fff;
+            border-top: none;
+            border-left: none;
+            transform: rotate(45deg)
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <h1>你好这是我的第一个css样式</h1>
+
+    <p>了深刻的九分裤垃圾毒素</p>
+
+    <div id="note">
+        我的笔记本。
+    </div>
+
+    <div class="card">
+        梅花A
+    </div>
+    <div class="card red-hart">
+        红桃3
+    </div>
+
+    <br>
+    姓名<br>
+    <input type="text" name="userName"><br>
+
+    other<br>
+    <input type="text" name="other"><br>
+
+    password
+    <input type="password"><br>
+
+    <input type="radio" value="nan" name="sex" />男
+    <input type="radio" value="nv" name="sex" />女
+
+
+    <form>
+        <div>
+            <input id="item1" type="radio" name="item" value="选项一" checked>
+            <label for="item1"></label>
+            <span>选项一</span>
+        </div>
+        <div>
+            <input id="item2" type="radio" name="item" value="选项二">
+            <label for="item2"></label>
+            <span>选项二</span>
+        </div>
+    </form>
+
+
+
+</body>
+</html>

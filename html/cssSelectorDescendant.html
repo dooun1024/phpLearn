@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello css</title>
+
+    <style>
+        li strong {
+            font-style: italic;
+            font-weight: normal;
+        }
+
+        .memo p{
+            color:red;
+        }
+
+        #memo.p  {
+            color:blue;
+        }
+
+        h3 > span  {
+            color:orange;
+        }
+
+        table.company td > p {
+            color:yellow;
+        }
+
+        [name] + p {
+            color:green;
+        }
+
+        html > body table + ul {
+            color:brown;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<table>
+
+</table>
+<ul>
+    <li>是的飞洒发安抚</li>
+</ul>
+
+<h1>我是h1</h1>
+<p>我是h1的兄弟</p>
+<p>我是h1的兄弟吗？</p>
+<h1>我是h1另一个</h1>
+<p>我是h1的兄弟吗？？</p>
+
+<table class="company">
+    <tr>
+        <td><p>我是黄色</p>数量的咖啡教室里的框架房</td>
+    </tr>
+
+</table>
+
+
+
+<h3>标题3<p><span>asdfs</span></p></h3>
+
+
+<div class="p" id="memo">
+    我是第三个样式
+</div>
+
+
+<p><strong>我是粗体字，不是斜体字，因为我不在列表当中，所以这个规则对我不起作用</strong></p>
+
+<ol>
+    <li><strong>我是斜体字。这是因为 strong 元素位于 li 元素内。</strong></li>
+    <li>我是正常的字体。</li>
+</ol>
+
+<div class="memo">
+    <p>
+        hello
+    </p>
+</div>
+<div class="memo">
+    hello3
+</div>
+
+<div>
+    <p>
+        hello2
+    </p>
+</div>
+
+</body>
+</html>

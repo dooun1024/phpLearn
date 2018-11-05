@@ -1,31 +1,32 @@
 <?php
+session_start();
+
+// 把数字连起来
 
 
+//初始化 Session 第一次进页面的时候，
+$_SESSION['final'] = isset($_SESSION['final'])?$_SESSION['final']:0;
 
-$i = 0;
-$j++;
-$j++;
-$j++;
-$j++;
-$j++;
+// 从表单拿到数字
+$num = $_GET['num'];
 
-echo $j;
-$j = 0;
-for ($i=100; $i<200; $i++) {
-	if($i%3 == 0){
-//		echo $i."\n";
-		$j= $j + 1 ;
-	} else {
-		// j 不加
-	}
-}
+// 把表单的数字跟Final的数字连起来
+$_SESSION['final'] = $_SESSION['final'].$num;
 
-echo $j;
+echo $_SESSION['final'];
+//session_destroy();
 
 
+?>
+<form>
+    <button name="num" value="1">1</button>
+    <button name="num" value="2">2</button>
+</form>
 
 
-
-
-
+<pre>
+<?php
+print_r($_SESSION);
+?>
+</pre>
 
