@@ -2,80 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list id="0b377c23-e016-4b4e-bc22-af76fb8d4c03" name="计算器思路sample" comment="计算器思路sample" />
+    <list default="true" id="c8b3f667-921a-496a-90d8-719e484154bd" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/php_DBConnect/images/bird.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php_DBConnect/images/hama.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php_DBConnect/images/mouse.png" beforeDir="false" />
+    </list>
     <list id="d7df3fc9-f09e-483d-9420-78f51b1542d2" name="15道算法题答案" comment="">
       <change afterPath="$PROJECT_DIR$/answers/01/02.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/answers/01/03.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/answers/01/04.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/answers/01/07.php" afterDir="false" />
-    </list>
-    <list default="true" id="c8b3f667-921a-496a-90d8-719e484154bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/answers/01/01.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/03Calculator/03_gototo_clac.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/03Calculator/Calculator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/03Calculator/jisuanqi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/07_gokouyoku_homework/2jieguo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/07_gokouyoku_homework/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/07_ritenu_homework/fushu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/07_ritenu_homework/uranai.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/07_ritenu_homework/uranaizhuyemian.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/calculator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/other_monster/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/other_monster_ri/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/other_monster_ri/monsterlist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/other_monster_ri_v2/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/other_monster_ri_v2/monsterlist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/01helloworld.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/css01Basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/css02CssBootstrap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/cssGijiClass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/cssSelector.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/cssSelectorDescendant.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/date.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/helloCss.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cloud.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/miku.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsonData.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/015NameSpace.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/016Date.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/time.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_DBConnect/add_monster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_DBConnect/conn.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_DBConnect/do_add_monster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_DBConnect/do_delete_monster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_DBConnect/do_update_monster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_DBConnect/images/bird.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_DBConnect/images/hama.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_DBConnect/images/mouse.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_DBConnect/update_monster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_DBConnect/view_monster.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_file/files/asdf.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_file/readFile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_file/writeFile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_little_game/roll_point.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_little_game/touzi.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_upload/do_upload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_upload/upload_form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/构思.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/002variable.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/002variable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/003function.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/003function.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/004calcu.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/004calcu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/005array.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/005array.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/006type.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/006type.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/007switch.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/007switch.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/008arrayFunc.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/008arrayFunc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/009Object.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/009Object.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/010Object2.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/010Object2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/011Interface.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/011Interface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/012const.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/012const.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/013Abstract.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/013Abstract.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/014Static.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/014Static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/Game.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Human.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/Human.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/Student.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/helloworld.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -98,8 +34,8 @@
       <file leaf-file-name="do_upload.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php_upload/do_upload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -201,10 +137,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1393" />
-    <option name="y" value="42" />
-    <option name="width" value="1380" />
-    <option name="height" value="978" />
+    <option name="x" value="2729" />
+    <option name="y" value="26" />
+    <option name="width" value="1299" />
+    <option name="height" value="998" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -221,22 +157,6 @@
             <path>
               <item name="phpLearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="phpLearn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phpLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phpLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phpLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phpLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="php_upload" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phpLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phpLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="php_upload" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -312,7 +232,7 @@
       <workItem from="1540776636806" duration="43228000" />
       <workItem from="1541032230732" duration="1335000" />
       <workItem from="1541126908190" duration="2465000" />
-      <workItem from="1541388673780" duration="4735000" />
+      <workItem from="1541388673780" duration="5013000" />
     </task>
     <task id="LOCAL-00001" summary="计算器思路sample">
       <created>1539929342796</created>
@@ -321,22 +241,29 @@
       <option name="project" value="LOCAL" />
       <updated>1539929342799</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="课内补充的各种内容">
+      <created>1541400605803</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541400605803</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157674000" />
+    <option name="totallyTimeSpent" value="157952000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1554" y="34" width="1159" height="699" extended-state="0" />
+    <frame x="2952" y="258" width="1048" height="781" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30482256" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33906883" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.29411766" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.20353982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -359,7 +286,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="计算器思路sample" />
-    <option name="LAST_COMMIT_MESSAGE" value="计算器思路sample" />
+    <MESSAGE value="课内补充的各种内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="课内补充的各种内容" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/html/test2.html">
@@ -577,6 +505,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="64" column="30" lean-forward="true" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
+          <folding>
+            <element signature="e#244#249#0#PHP" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -591,6 +524,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
           <caret line="63" column="46" lean-forward="true" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -658,8 +594,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php_upload/do_upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="255">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
