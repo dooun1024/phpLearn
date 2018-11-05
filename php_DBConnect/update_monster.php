@@ -36,11 +36,16 @@ while ($row = $result->fetch_assoc()) {
         <label for="m_name">名称</label>
         <input type="text" id="m_name" name="m_name" value="<?= "{$row['m_name']}"; ?>">
 
-
-
-
         <input type="hidden" name="mno" value="<?= "{$row['mno']}"; ?>">
         <input type="submit"/>
+    </form>
+
+    <form action="do_upload_image.php" method="post"
+        enctype="multipart/form-data">
+        <input type="text" name="mno" value="<?= "{$row['mno']}"; ?>">
+        <label for="file">图片:</label>
+        <input type="file" name="file" id="file" /> 
+        <input type="submit" name="submit" value="上传" />
     </form>
 	<?php
 }

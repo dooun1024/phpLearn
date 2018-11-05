@@ -22,7 +22,21 @@ $mno = $_REQUEST['mno'];
 
 echo "查看号码为{$mno}的数据";
 echo "<br>";
-$sql = "select * from monster where mno={$mno};";
+$sql = "
+SELECT
+monster.mno,
+monster.type,
+monster.m_name,
+monster.m_level,
+monster.address,
+monster.atk,
+monster_images.image_url
+FROM
+monster
+LEFT JOIN monster_images ON monster.mno = monster_images.mno
+WHERE
+monster.mno = {$mno}
+";
 echo $sql . "<br>";
 // 执行数据库查询
 $result = $conn->query($sql);
@@ -47,6 +61,8 @@ while ($row = $result->fetch_assoc()) {
     </div>
     <h2>出没地点</h2>
 	<?= "{$row['address']}"; ?>
+    <h2>图片地址</h2>
+	<img src="images/<?= $row['image_url'];?>" >
 	<?php
 }
 $conn->close();
