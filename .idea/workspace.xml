@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list id="d7df3fc9-f09e-483d-9420-78f51b1542d2" name="15道算法题答案" comment="">
-      <change afterPath="$PROJECT_DIR$/answers/01/02.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/01/03.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/01/04.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/01/07.php" afterDir="false" />
-    </list>
+    <list id="24e62329-2b3a-4b88-aa4d-0fa614f94f76" name="no commit" comment="" />
     <list default="true" id="c8b3f667-921a-496a-90d8-719e484154bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/jQuery/01.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/02_calculator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/181112_1_doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/181112_2_attr.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/181113_validate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/light_off.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jQuery/light_on.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jQuery/181115_ajaxPhp.html" beforeDir="false" afterPath="$PROJECT_DIR$/jQuery/181115_ajaxPhp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jQuery/API/isUserExist.php" beforeDir="false" afterPath="$PROJECT_DIR$/jQuery/API/isUserExist.php" afterDir="false" />
     </list>
-    <list id="0b377c23-e016-4b4e-bc22-af76fb8d4c03" name="计算器思路sample" comment="计算器思路sample" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -194,8 +182,9 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c8b3f667-921a-496a-90d8-719e484154bd" name="Default" comment="" />
-      <changelist id="d7df3fc9-f09e-483d-9420-78f51b1542d2" name="15道算法题答案" comment="" />
-      <changelist id="0b377c23-e016-4b4e-bc22-af76fb8d4c03" name="计算器思路sample" comment="" />
+      <changelist id="" name="15道算法题答案" comment="" />
+      <changelist id="" name="计算器思路sample" comment="" />
+      <changelist id="24e62329-2b3a-4b88-aa4d-0fa614f94f76" name="no commit" comment="" />
       <created>1538614913802</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -224,7 +213,7 @@
       <workItem from="1541744709023" duration="6334000" />
       <workItem from="1542011762586" duration="770000" />
       <workItem from="1542085127727" duration="3283000" />
-      <workItem from="1542258693764" duration="272000" />
+      <workItem from="1542258693764" duration="1098000" />
     </task>
     <task id="LOCAL-00001" summary="计算器思路sample">
       <created>1539929342796</created>
@@ -254,22 +243,36 @@
       <option name="project" value="LOCAL" />
       <updated>1541404896379</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="课内练习">
+      <created>1542258986569</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1542258986569</updated>
+    </task>
+    <task id="LOCAL-00006" summary="课内练习 20181115">
+      <created>1542259028643</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1542259028643</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176714000" />
+    <option name="totallyTimeSpent" value="177540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2152" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.5875" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.24479167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3295964" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -295,7 +298,9 @@
     <MESSAGE value="课内补充的各种内容" />
     <MESSAGE value="删除敏感内容" />
     <MESSAGE value="补充内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="补充内容" />
+    <MESSAGE value="课内练习" />
+    <MESSAGE value="课内练习 20181115" />
+    <option name="LAST_COMMIT_MESSAGE" value="课内练习 20181115" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/answers/other_monster/index.php">
@@ -565,6 +570,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="78" column="23" lean-forward="true" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
+          <folding>
+            <element signature="e#711#717#0" expanded="true" />
+            <element signature="e#717#723#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
