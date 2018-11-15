@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script src="js/jquery-3.3.1.js"></script>
+
+    <style media="screen">
+      .msg{
+        color:red;
+      }
+      .stars {
+        font-size:4em;
+      }
+      .stars span {
+        cursor: pointer;
+      }
+    </style>
+</head>
+<body>
+  <form class="" action="index.html" method="post">
+
+  name <br>
+  <input type="text" name="name" value=""><br>
+  <span id="nameMsg" class="msg"></span>
+
+  description <br>
+  <textarea name="description" rows="8" cols="80"></textarea><br>
+  <span id="descriptionMsg" class="msg"></span>
+  <br>
+
+  <!-- <div class="stars">
+    <span id="star1">☆</span><span id="star2">☆</span><span id="star3">☆</span><span id="star4">☆</span><span id="star5">☆</span>
+  </div> -->
+  <!-- <input type="submit" name="" value="提出"> -->
+  <button id="submit">提交</button>
+</form>
+
+<script>
+  var nameElm = $("[name=name]");
+  var descriptionElm = $("[name=description]");
+
+
+  // 点击事件
+  $("form").submit(function(){
+    // 获取name的数据
+    name = nameElm.val();
+    // 判定name是否合法(是不是空)
+    if(name==""){
+      // 提示“name must no sky”
+      $("#nameMsg").text("name must not sky");
+    } else {
+      $("#nameMsg").text("");
+    }
+
+    // 获得descripition 的值
+    txt = $("[name=description]").val();
+
+    // 判断是否超过10个
+    // 得到字符串的长度
+    var length = txt.length;
+    // 比较字符串的长度
+    if(txt.length>10){
+    // 如果超过，下面不是红的
+    $("#descriptionMsg").text("");  
+    } else {
+    // 否则，提示“description must biger than 10 character ”
+    $("#descriptionMsg").text("description must biger than 10 character");
+
+    }
+
+
+    
+
+
+
+
+    return false;
+  });
+
+  // $("[id=submit]").click(function(){
+
+
+
+
+  // });
+
+
+</script>
+
+
+</body>
+</html>

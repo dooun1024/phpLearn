@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script
+    src="js/jquery-3.3.1.js"></script>
+
+    <style>
+
+    </style>
+
+</head>
+<body>
+    <label for="hardness1">
+        <input type="radio" name="hardness" id="hardness1">新兵 
+    </label>
+    <label for="hardness2">
+        <input type="radio" name="hardness" id="hardness2">老兵
+    </label>
+
+    <br>
+    <img id="img1" src="xinbing.jpeg">
+    <div id="diss">
+        我是描述
+    </div>
+
+    <script>
+        // 让单选项被选中
+        $("#hardness1").prop("checked",true);
+        // 初始化自动设置为新兵
+        setXinbing();
+        
+        // 当点击“老兵”选项的时候，调用laobing的函数
+        $("#hardness2").click(function(){
+            setLaobing();
+            titleStr = $("#img1").attr("title");
+            $("#diss").text(titleStr);
+        });
+        $("#hardness1").click(function(){
+            setXinbing();
+            titleStr = $("#img1").attr("title");
+            $("#diss").text(titleStr);
+        });
+
+        function setXinbing(){
+            $("#img1").attr("src", "xinbing.jpeg");
+            $("#img1").css("width", "300px");
+            $("#img1").attr("title", "我是新人");
+
+        }
+
+        function setLaobing(){
+            $("#img1").attr("src", "laobing.jpg");
+            $("#img1").css("width", "500px");
+            $("#img1").attr("title", "我是老兵");
+        }
+        
+    </script>
+</body>
+</html>

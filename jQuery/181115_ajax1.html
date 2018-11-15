@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/jquery-3.3.1.js"></script>
+
+</head>
+<body>
+    <a href="\">返回主页</a>
+    <a href="#">啥也不干</a>
+    <h1>小说阅读</h1>
+    <div width="300px" height="1000px" style="float:left">
+        <ul id="xiaoshuoList">
+            <li> <a href="#" data-xs="xiaoshuo.txt">雪中悍刀行</a></li>
+            <li> <a href="#" data-xs="xiaoshuo2.txt">聪明的小孩</a></li>
+            <li> <a href="#" data-xs="xiaoshuo3.js">Blabla</a></li>
+        </ul>
+    </div>
+    <div width="500px" style="float:left">
+        <section id="xiaoshuoDisplay">
+            
+        </section>
+    </div>
+
+    <script>
+        // 点击"小说1"链接的时候
+        $("#xiaoshuoList a").click(function(){
+            
+            // 获取data-xs属性的值
+            url = $(this).attr("data-xs");
+            // 获取小说
+            $.ajax({
+                url:url,
+                dataType:"script",
+                success:function(result){
+                    // result = paiban(result);
+                    // $("#xiaoshuoDisplay").html(result);
+                }
+            });
+            return false;
+        })
+
+        function paiban(txt){
+            // 把文本的换行换成html的换行
+            return txt.replace(/\n/g, "<br />");
+        }
+
+    </script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/jquery-3.3.1.js"></script>
+
+</head>
+<body>
+    <a href="\">返回主页</a>
+    <a href="#">啥也不干</a>
+
+    <h1>用户注册</h1>
+
+    账号<br>
+    <input type="text" name="userName">
+    <span id="userNameMsg"></span>
+
+
+
+    <script>
+        // 账号字段失去焦点的时候
+        $("[name=userName]").blur(function(){
+
+            // 拿到账号
+            userNameStr = $(this).val();
+
+            // 获取小说
+            $.ajax({
+                // ajax的访问地址
+                url:"API/isUserExist.php",
+                // 预测接收数据类型
+                dataType:"text",
+                // 请求数据
+                // data:{userName:userNameStr},
+                data:"userName="+userNameStr,
+                // 请求类型
+                type:"GET",
+                // 如果通信成功，则干什么
+                success:function(result){
+                    if (result == "false"){
+                        $("#userNameMsg").html("✅此用户名可以使用");
+                    } else {
+                        $("#userNameMsg").html("×用户已存在");
+                    }
+                }
+            });
+            // 禁止浏览器默认行为（链接跳转行为）
+            return false;
+        })
+
+        function paiban(txt){
+            // 把文本的换行换成html的换行
+            return txt.replace(/\n/g, "<br />");
+        }
+
+    </script>
+
+
+
+
+</body>
+</html>
