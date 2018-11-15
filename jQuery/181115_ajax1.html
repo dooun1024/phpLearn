@@ -12,6 +12,9 @@
     <a href="\">返回主页</a>
     <a href="#">啥也不干</a>
     <h1>小说阅读</h1>
+    <div id="load">
+
+    </div>
     <div width="300px" height="1000px" style="float:left">
         <ul id="xiaoshuoList">
             <li> <a href="#" data-xs="xiaoshuo.txt">雪中悍刀行</a></li>
@@ -19,6 +22,7 @@
             <li> <a href="#" data-xs="xiaoshuo3.js">Blabla</a></li>
         </ul>
     </div>
+    <button id="ajaxErrBtn">ajax出错的情况</button>
     <div width="500px" style="float:left">
         <section id="xiaoshuoDisplay">
             
@@ -31,17 +35,46 @@
             
             // 获取data-xs属性的值
             url = $(this).attr("data-xs");
+            url = "asdf";
             // 获取小说
             $.ajax({
                 url:url,
-                dataType:"script",
+                dataType:"text",
+                // dataType:"script", // js脚本的情况下
                 success:function(result){
-                    // result = paiban(result);
-                    // $("#xiaoshuoDisplay").html(result);
+                    result = paiban(result);
+                    $("#xiaoshuoDisplay").html(result);
+                },
+                error:function(e) {
+                    console.log(e);
+                    $("body").append(e.responseText);
                 }
             });
             return false;
         })
+
+        $("#ajaxErrBtn").click(function(){
+            $.ajax({
+                url:"不存在的url",
+                dataType:"json",
+                beforeSend:function(){
+                    $("#load").html($("<img src='loading2.svg'>"));
+                },
+                success:function(result){
+                },
+                error:function(e) {
+                    console.log(e);
+                    $("body").append(e.responseText);
+                },
+                complete:function(){
+                    setTimeout(function(){
+                        $("#load").html("");
+                    },1000);
+                    
+                }
+            });
+        });
+
 
         function paiban(txt){
             // 把文本的换行换成html的换行
