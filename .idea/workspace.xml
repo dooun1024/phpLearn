@@ -1,41 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8b3f667-921a-496a-90d8-719e484154bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/answers/07_gokouyoku_homework/nianling.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/07_gokouyoku_homework/zhanbu2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/07_gototo_homework/birthday.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/07_gototo_homework/check.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/answers/other_monster/monster_list.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/beauty.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/giphy.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/test2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/000BitCalcu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_DBConnect/do_upload_image.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_DBConnect/images/images.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_DBConnect/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_DBConnect/upload_image_form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_file/files/阿斯顿发.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_little_game/can_marry.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php_little_game/run_nian.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSpace/2018_11_05/test1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSpace/2018_11_05/增加测试文件.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSpace/src/createTestFile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSpace/src/initTestFile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSpace/src/sample/html5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSpace/src/增加测试文件.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSpace/新增测试文件夹.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/miku.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php_DBConnect/update_monster.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_DBConnect/update_monster.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php_DBConnect/view_monster.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_DBConnect/view_monster.php" afterDir="false" />
-    </list>
     <list id="d7df3fc9-f09e-483d-9420-78f51b1542d2" name="15道算法题答案" comment="">
       <change afterPath="$PROJECT_DIR$/answers/01/02.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/answers/01/03.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/answers/01/04.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/answers/01/07.php" afterDir="false" />
+    </list>
+    <list default="true" id="c8b3f667-921a-496a-90d8-719e484154bd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/jQuery/01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jQuery/02_calculator.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jQuery/181112_1_doc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jQuery/181112_2_attr.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jQuery/181113_validate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jQuery/light_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jQuery/light_on.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
     </list>
     <list id="0b377c23-e016-4b4e-bc22-af76fb8d4c03" name="计算器思路sample" comment="计算器思路sample" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,35 +27,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="upload_form.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php_upload/upload_form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="do_upload.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php_upload/do_upload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="birthday.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/answers/07_gototo_homework/birthday.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -107,10 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Student.php" />
-        <option value="$PROJECT_DIR$/011Interface.php" />
-        <option value="$PROJECT_DIR$/013Abstract.php" />
-        <option value="$PROJECT_DIR$/Game.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/answers/01/01.php" />
         <option value="$PROJECT_DIR$/answers/01/02.php" />
@@ -132,10 +81,8 @@
         <option value="$PROJECT_DIR$/css/default.css" />
         <option value="$PROJECT_DIR$/html/css01Basic.html" />
         <option value="$PROJECT_DIR$/html/css02CssBootstrap.html" />
-        <option value="$PROJECT_DIR$/answers/03calcu.php" />
         <option value="$PROJECT_DIR$/html/date.php" />
         <option value="$PROJECT_DIR$/homework/calculator/03_gototo_clac.php" />
-        <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/answers/other_monster/index.php" />
         <option value="$PROJECT_DIR$/answers/other_monster/monster_list.php" />
         <option value="$PROJECT_DIR$/answers/other_monster_ri_v2/monsterlist.php" />
@@ -158,6 +105,12 @@
         <option value="$PROJECT_DIR$/php_file/files/阿斯顿发.txt" />
         <option value="$PROJECT_DIR$/php_upload/upload_form.php" />
         <option value="$PROJECT_DIR$/php_upload/do_upload.php" />
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/jQuery/01.php" />
+        <option value="$PROJECT_DIR$/answers/03calcu.php" />
+        <option value="$PROJECT_DIR$/jQuery/02_calculator.php" />
+        <option value="$PROJECT_DIR$/jQuery/181113_validate.html" />
+        <option value="$PROJECT_DIR$/cake3_bake/cms/config/app.php" />
       </list>
     </option>
   </component>
@@ -171,10 +124,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2175" />
+    <option name="x" value="2194" />
     <option name="y" value="25" />
-    <option name="width" value="1129" />
-    <option name="height" value="907" />
+    <option name="width" value="1433" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -192,49 +145,6 @@
               <item name="phpLearn" type="b2602c69:ProjectViewProjectNode" />
               <item name="phpLearn" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="phpLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phpLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="answers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phpLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phpLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="answers" type="462c0819:PsiDirectoryNode" />
-              <item name="07_gokouyoku_homework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phpLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phpLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="answers" type="462c0819:PsiDirectoryNode" />
-              <item name="07_gototo_homework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phpLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phpLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phpLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phpLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phpLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phpLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phpLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phpLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="testSpace" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="phpLearn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="phpLearn" type="462c0819:PsiDirectoryNode" />
-              <item name="testSpace" type="462c0819:PsiDirectoryNode" />
-              <item name="2018_11_05" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -245,7 +155,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="updatemonster&#9;FILE&#9;file://C:/Programming/phpLearn/php_DBConnect/update_monster.php&#10;addmonster&#9;FILE&#9;file://C:/Programming/phpLearn/php_DBConnect/add_monster.php&#10;doadd&#9;FILE&#9;file://C:/Programming/phpLearn/php_DBConnect/do_add_monster.php&#10;add_mons&#9;FILE&#9;file://C:/Programming/phpLearn/php_DBConnect/add_monster.php&#10;ignore&#9;FILE&#9;file://C:/Programming/phpLearn/.gitignore" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../phpMyMVC" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../phpLearnSpace/cake3_bake" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -253,11 +163,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Programming\phpLearn\jQuery" />
       <recent name="C:\Programming\phpLearn\php_upload" />
       <recent name="C:\Programming\phpLearn\php_file" />
       <recent name="C:\Programming\phpLearn\php" />
       <recent name="C:\Programming\phpLearn\answers" />
-      <recent name="C:\Programming\phpLearn" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Programming\phpLearn" />
@@ -309,7 +219,12 @@
       <workItem from="1540776636806" duration="43228000" />
       <workItem from="1541032230732" duration="1335000" />
       <workItem from="1541126908190" duration="2465000" />
-      <workItem from="1541388673780" duration="6675000" />
+      <workItem from="1541388673780" duration="7516000" />
+      <workItem from="1541573430616" duration="5600000" />
+      <workItem from="1541744709023" duration="6334000" />
+      <workItem from="1542011762586" duration="770000" />
+      <workItem from="1542085127727" duration="3283000" />
+      <workItem from="1542258693764" duration="272000" />
     </task>
     <task id="LOCAL-00001" summary="计算器思路sample">
       <created>1539929342796</created>
@@ -332,22 +247,29 @@
       <option name="project" value="LOCAL" />
       <updated>1541400890536</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="补充内容">
+      <created>1541404896379</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1541404896379</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159614000" />
+    <option name="totallyTimeSpent" value="176714000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2152" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26385927" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.51458335" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.5875" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3295964" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -372,43 +294,10 @@
     <MESSAGE value="计算器思路sample" />
     <MESSAGE value="课内补充的各种内容" />
     <MESSAGE value="删除敏感内容" />
-    <option name="LAST_COMMIT_MESSAGE" value="删除敏感内容" />
+    <MESSAGE value="补充内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="补充内容" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/answers/03Calculator/jsq_kou.php" />
-    <entry file="file://$PROJECT_DIR$/answers/03Calculator/11_Session.php" />
-    <entry file="file://$PROJECT_DIR$/answers/03Calculator/Calculator.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/answers/03Calculator/jisuanqi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/answers/calculator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/date.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/homework/calculator/03_gototo_clac.php" />
-    <entry file="file://$PROJECT_DIR$/css/default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/answers/other_monster/index.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -424,13 +313,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="39" column="19" lean-forward="true" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -483,9 +365,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/构思.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/构思.html" />
     <entry file="file://$PROJECT_DIR$/php_DBConnect/update_monster.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -538,18 +418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="64" column="30" lean-forward="true" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
-          <folding>
-            <element signature="e#244#249#0#PHP" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/answers/03calcu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="556">
-          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
         </state>
       </provider>
     </entry>
@@ -557,9 +425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="488">
           <caret line="63" column="46" lean-forward="true" selection-start-line="63" selection-start-column="46" selection-end-line="63" selection-end-column="46" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -605,41 +470,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/01helloworld.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php_upload/images/pzJ3mqM.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php_upload/images/asdf.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php_upload/upload_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/aaa.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/php_upload/images/pzJ3mqM.jpg" />
+    <entry file="file://$PROJECT_DIR$/php_upload/images/asdf.jpg" />
+    <entry file="file://$PROJECT_DIR$/php/aaa.html" />
     <entry file="file://$PROJECT_DIR$/html/images/beauty.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/html/images/giphy.gif">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php_upload/do_upload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/answers/07_gokouyoku_homework/zhanbu2.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -655,14 +493,95 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/answers/07_gototo_homework/birthday.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="51">
+          <caret line="18" column="83" lean-forward="true" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/answers/07_gototo_homework/birthday.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/002variable.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/01helloworld.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="18" lean-forward="true" selection-end-line="81" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/01.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php_upload/do_upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answers/calculator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="112" column="14" lean-forward="true" selection-start-line="112" selection-start-column="14" selection-end-line="112" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/answers/03calcu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="35" column="8" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/181112_2_attr.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/181112_1_doc.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/181113_validate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="78" column="23" lean-forward="true" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jQuery/02_calculator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php_upload/upload_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cake3_bake/cms/config/app.php" />
   </component>
 </project>

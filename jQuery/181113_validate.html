@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script src="js/jquery-3.3.1.js"></script>
+
+    <style media="screen">
+      .msg{
+        color:red;
+      }
+      .stars {
+        font-size:4em;
+      }
+      .stars span {
+        cursor: pointer;
+      }
+    </style>
+</head>
+<body>
+  <form class="" action="index.html" method="post">
+
+  name <br>
+  <input type="text" name="name" value=""><br>
+  <span id="nameMsg" class="msg"></span>
+
+  description <br>
+  <textarea name="description" rows="8" cols="80"></textarea><br>
+  &nbsp;&nbsp;已经输入了 <span id="description_count">0</span> 文字
+  <span id="descriptionMsg" class="msg"></span>
+  <br>
+
+  <div class="stars">
+    <span id="star1">☆</span><span id="star2">☆</span><span id="star3">☆</span><span id="star4">☆</span><span id="star5">☆</span>
+  </div>
+  <input type="submit" name="" value="提出">
+</form>
+
+
+<script>
+  var nameElm = $("[name=name]")
+  var descriptionElm = $("[name=description]");
+  var descriptionCountElm = $("#description_count");
+
+
+  $("form").submit(function(){
+    var name = $("[name=name]").val();
+    var description = descriptionElm.val();
+    var flag = true;
+
+    if (name == ""){
+      $("#nameMsg").html("名称不可为sky<br>");
+      flag = false;
+    } else {
+      $("#nameMsg").html("");
+    }
+    if (description.length <= 10){
+      $("#descriptionMsg").html("描述必须多于10个字符<br>");
+      flag = false;
+    } else {
+      $("#descriptionMsg").html("");
+    }
+
+    if (flag){
+      alert("成功");
+    }
+    return false;
+  });
+
+  // 释放键盘的时候统计字数
+  descriptionElm.keyup(function(){
+    var length = $(this).val().length
+    descriptionCountElm.html(length);
+    if(length<=10){
+      var txt = "还需要输入";
+      txt += 10-length;
+      txt += "文字";
+      $("#descriptionMsg").html(txt);
+    } else {
+      $("#descriptionMsg").html("");
+    }
+  });
+
+  // rating 评星
+  $(".stars span").click(function(){
+    switch($(this).attr("id")){
+      case "star1":
+      $("#star1").text("★");
+      $("#star2").text("☆");
+      $("#star3").text("☆");
+      $("#star4").text("☆");
+      $("#star5").text("☆");
+      break;
+      case "star2":
+      $("#star1").text("★");
+      $("#star2").text("★");
+      $("#star3").text("☆");
+      $("#star4").text("☆");
+      $("#star5").text("☆");
+      break;
+      case "star3":
+      $("#star1").text("★");
+      $("#star2").text("★");
+      $("#star3").text("★");
+      $("#star4").text("☆");
+      $("#star5").text("☆");
+      break;
+      case "star4":
+      $("#star1").text("★");
+      $("#star2").text("★");
+      $("#star3").text("★");
+      $("#star4").text("★");
+      $("#star5").text("☆");
+      break;
+      case "star5":
+      $("#star1").text("★");
+      $("#star2").text("★");
+      $("#star3").text("★");
+      $("#star4").text("★");
+      $("#star5").text("★");
+      break;
+    }
+  })
+
+
+</script>
+
+
+</body>
+</html>

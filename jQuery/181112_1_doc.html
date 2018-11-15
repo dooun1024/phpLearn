@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+
+    <style>
+    p{color:red;}
+    #div1{
+        color:blue;
+        border:solid black 1px;
+    }
+    .aka{color:yellow;}
+    [id=div1]{font-size:30px;}
+
+    div {
+        min-height:50px;
+        border:solid black 1px;
+    }
+    </style>
+
+</head>
+<body>
+    
+
+    <p>我是段落</p>
+    <div id="div1" >
+        我是div
+    </div>
+
+    <div id="div2">
+        我是div2
+    </div>
+    <div id="div3">
+        我是div3
+    </div>
+
+    <input type="text" class="aka" value="阿斯顿发">
+
+
+    <ul>
+        <li>张三</li>
+        <li>李四</li>
+        <li>王五</li>
+    </ul>
+
+    <script>
+    // 1 获取p的值，打印到控制台 console.log()
+console.log ($("p").html());
+    // 2 改变"阿斯顿发"为 "我的文本"，改变文本用的是 html("要改变的文本")函数;
+$(".aka").val("我的文本");
+    // 3 
+    var div = $("#div1");
+    
+
+    var li = $("li");
+    console.log(li);
+    li.each(function(i){
+        this.innerHTML = "列表" + i + "";
+        console.log(this);
+    });
+    console.log(li.length);
+
+    // 把列表第二个li的内容改成“李四很好”
+    li.eq(1).html("李四很好");
+
+    // 利用jquery来创建对象 利用代码来生成一个<textarea>
+    // 直接在$("")写入你要创建的东西
+    var ta = $("<textarea></textarea>");
+    ta.html("动态创建了一个文本输入区域");
+    var ta2 = $("<textarea></textarea>");
+    ta2.html("动态创建了一个文本输入区域2");
+    console.log(ta);
+
+    // 在div里写入这个textarea
+    div.append(ta);
+    div.prepend(ta2);
+    div.before($("<h3>我在div前面</h3>"));
+    div.after($("<h3>我在div后面</h3>"));
+
+    // replaceWith 替换
+    li.eq(2).replaceWith($("<li>马六</li>"));
+
+    // 清空div2 empty 
+    $("#div2").empty();
+
+    var ta3 = ta2.clone();
+    ta3.html("我是一个复制体，哈哈哈哈哈");
+    $("#div2").append(ta3);
+    
+    // 删除div2 remove  
+    $("#div3").remove();
+
+    
+    
+
+
+    
+    </script>
+
+
+
+</body>
+</html>
