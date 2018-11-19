@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <?php include "element/header.php"; ?>
     <title>Document</title>
 
 </head>
 <body>
+  <?php include "element/topNav.php"; ?>
 <?php
 session_start();
 $types = [
@@ -47,14 +46,10 @@ $mNames = [
 
 $randomType= $types[rand(0,count($mNames)-1)];
 $count = count($mNames[$randomType])-1;
-
-
-
 ?>
-<a href="index.php">返回首页</a>
 
 
-
+<h1 class="text-center">增加数据</h1>
 <?php
 // session中是否有缓存的表单数据
 if (isset($_SESSION['tmpData'])) {
@@ -74,31 +69,45 @@ if (isset($_SESSION['tmpData'])) {
 	$atk = rand(3, 30);
 }
 ?>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8">
 
 <form action="do_add_monster.php">
-    怪物类型<br>
-    <input type="text" name="type" id="" value="<?php echo $type; ?>"><br>
-    怪物名<br>
-    <input type="text" name="m_name" id="" value="<?php echo $m_name; ?>"><br>
-    怪物等级<br>
-    <input type="text" name="m_level" id="" value="<?php echo $m_level ?>"><br>
-	<?php
+  <div class="form-group">
+    <label for="type">怪物类型</label>
+    <input type="text" name="type" id="type" class="form-control" value="<?php echo $type; ?>"><br>
+  <div>
+  <div class="form-group">
+    <label for="m_name">怪物名</label>
+    <input type="text" name="m_name" id="m_name" class="form-control" value="<?php echo $m_name; ?>"><br>
+  </div>
+  <div class="form-group">
+    <label for="m_name">怪物等级</label>
+    <input type="text" name="m_level" id="" class="form-control" value="<?php echo $m_level ?>"><br>
+  </div>
+  <?php
 	if (!empty($_SESSION['errs']['m_level'])) {
 		echo "<span style='text-align: center;color:red;'>{$_SESSION['errs']['m_level']}</span><br>";
 	}
 	?>
-    怪物出现<br>
-    <input type="text" name="address" id="" value="road<?php $address; ?>"><br>
-    攻击力<br>
-    <input type="text" name="atk" id="" value="<?php echo $atk; ?>"><br>
+  <div class="form-group">
+    怪物出现
+    <input type="text" name="address" id="" class="form-control" value="road<?php $address; ?>"><br>
+  </div>
+    攻击力
+    <input type="text" name="atk" id="" class="form-control" value="<?php echo $atk; ?>"><br>
 	<?php
 	if (!empty($_SESSION['errs']['atk'])) {
 		echo "<span style='text-align: center;color:red;'>{$_SESSION['errs']['atk']}</span><br>";
 	}
 	?>
-
-    <input type="submit" value="提交">
+    <input type="submit" class="btn btn-success" value="提交">
 </form>
+
+</div>
+</div>
+</div>
 
 </body>
 </html>

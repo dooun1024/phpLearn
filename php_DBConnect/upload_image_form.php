@@ -1,4 +1,11 @@
-<meta charset="utf-8">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<?php include "element/header.php"; ?>
+
+		<title></title>
+	</head>
+	<body>
 <a href="index.php">返回首页</a>
 <?php
 $servername = "localhost";
@@ -29,3 +36,5 @@ echo "<br>";
 
 $conn->close();
 ?>
+</body>
+</html>

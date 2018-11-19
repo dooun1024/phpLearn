@@ -7,16 +7,6 @@ $username = "root";
 $password = null;
 $dbname = "game_data";
 
-// 创建连接
-$conn = new mysqli($servername, $username, $password, $dbname);
-// 检测连接
-if ($conn->connect_error) {
-	die("连接失败: " . $conn->connect_error);
-} else {
-//	echo "连接成功";
-}
-
-
 // 接收数据
 $type = $_REQUEST['type'];
 $m_name = $_REQUEST['m_name'];
@@ -74,7 +64,6 @@ echo "</pre>";
 //	echo "Error: " . $sql . "<br>" . $conn->error;
 //}
 
-$conn->close();
 ?>
 
 <a href="index.php">返回首页</a>

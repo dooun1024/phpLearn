@@ -1,5 +1,14 @@
-<meta charset="utf-8">
-<a href="index.php">返回首页</a>
+<?php
+include "util/Connector.php";
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <?php include "element/header.php"; ?>
+    <title>Document</title>
+</head>
+<body>
+<?php include "element/topNav.php"; ?>
 <?php
 $servername = "localhost";
 $username = "root";
@@ -98,3 +107,5 @@ $conn->close();
     }
 
 </style>
+</body>
+</html>
